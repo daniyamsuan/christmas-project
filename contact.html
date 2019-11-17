@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>
+        The Holidays
+
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!---theme css--->
+    <link rel="stylesheet" href="style6.css">
+    <!---custom fonts---->
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <!---contact--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".btn").click(function(){
+            $(".input, .text-area").val("")
+        });
+    }
+    </script>
+</head>
+
+<body>
+ <div class="yey"><audio src="ngayongpasko.mp3" controls>	
+</audio> </div>
+    <!----navi---->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">home</a>
+        <a href="about.html">about</a>
+        <div class="dropdown">
+            <button class="dropbtn">presents
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="letter3.html">for the family</a>
+                <a href="letter2.html">for the friends</a>
+                <a href="letter1.html">for the self</a>
+            </div>
+        </div>
+        <a href="contact.html">contact</a>
+
+        <!---bg--->
+        <div class="background-image"></div>
+        <!----home content---->
+
+        <div class="container">
+            <div style="text-align:center">
+            </div>
+            <div class="wrapper">
+                <div class="contact-us">
+                    <div class="title"> for your concerns</div>
+                    <div class="input-fields">
+                        <div class="items">
+                            <label for="name" class="label">name</label>
+                            <input id="name" type="text" class="input">
+                        </div>
+                        <div class="items">
+                            <label for="email" class="label">email</label>
+                            <input id="email" type="text" class="input">
+                        </div>
+                        <div class="items">
+                            <label for="subject" class="label">subject</label>
+                            <input id="subject" type="text" class="input">
+                        </div>
+                        <div class="items">
+                            <label for="msg" class="label">message</label>
+                            <textarea id="msg" class="text-area"></textarea>
+                        </div>
+                    </div>
+                    <div class="btn">send</div>
+                </div>
+            </div>
+        </div>
+    </div>
